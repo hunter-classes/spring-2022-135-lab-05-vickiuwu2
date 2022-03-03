@@ -29,6 +29,7 @@ TEST_CASE("Tests for countPrimes function")
     CHECK(countPrimes(15,16) == 0);
     CHECK(countPrimes(17,17) == 1);
     CHECK(countPrimes(1,100) == 25);
+}
 
 TEST_CASE("Tests for isTwinPrime function")
 {  
